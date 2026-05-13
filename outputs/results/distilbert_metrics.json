@@ -1,0 +1,21 @@
+{
+  "model": "DistilBERT",
+  "accuracy": 0.73375,
+  "precision": 0.7166666666666667,
+  "recall": 0.6268221574344023,
+  "f1": 0.6687402799377916,
+  "macro_f1": 0.7230848735112155,
+  "weighted_f1": 0.7308289780954285,
+  "roc_auc": 0.796422351372559,
+  "confusion": [
+    [
+      372,
+      85
+    ],
+    [
+      128,
+      215
+    ]
+  ],
+  "per_class_report": "                  precision    recall  f1-score   support\n\nnon_manipulative       0.74      0.81      0.78       457\n    manipulative       0.72      0.63      0.67       343\n\n        accuracy                           0.73       800\n       macro avg       0.73      0.72      0.72       800\n    weighted avg       0.73      0.73      0.73       800\n"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "TF-IDF + LR",
+  "accuracy": 0.8793852322084865,
+  "precision": 0.8817204301075269,
+  "recall": 0.8302180685358256,
+  "f1": 0.8551945447252306,
+  "macro_f1": 0.8759224942349313,
+  "weighted_f1": 0.8788658215124533,
+  "roc_auc": 0.9485429893782048,
+  "confusion": [
+    [
+      1566,
+      143
+    ],
+    [
+      218,
+      1066
+    ]
+  ],
+  "per_class_report": "                  precision    recall  f1-score   support\n\nnon_manipulative       0.88      0.92      0.90      1709\n    manipulative       0.88      0.83      0.86      1284\n\n        accuracy                           0.88      2993\n       macro avg       0.88      0.87      0.88      2993\n    weighted avg       0.88      0.88      0.88      2993\n"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "Retrieval-Enhanced",
+  "accuracy": 0.71125,
+  "precision": 0.6917808219178082,
+  "recall": 0.5889212827988338,
+  "f1": 0.6362204724409449,
+  "macro_f1": 0.6984211170494881,
+  "weighted_f1": 0.7072847089062054,
+  "roc_auc": 0.7803586579989921,
+  "confusion": [
+    [
+      367,
+      90
+    ],
+    [
+      141,
+      202
+    ]
+  ],
+  "per_class_report": "                  precision    recall  f1-score   support\n\nnon_manipulative       0.72      0.80      0.76       457\n    manipulative       0.69      0.59      0.64       343\n\n        accuracy                           0.71       800\n       macro avg       0.71      0.70      0.70       800\n    weighted avg       0.71      0.71      0.71       800\n"
+}

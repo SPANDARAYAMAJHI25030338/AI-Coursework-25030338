@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# Trained model weights (regeneratable from training scripts)
+outputs/models/distilbert/model.safetensors
+outputs/models/**/*.safetensors
+outputs/models/**/*.bin
+outputs/models/**/*.pt
+outputs/models/**/*.pth
+outputs/models/**/*.ckpt
+
+# Office temp/lock files
+~$*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS / misc
+Thumbs.db
